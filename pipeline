@@ -1,0 +1,40 @@
+## Workflow Pipeline
+
+1. **Tkinter GUI Window**
+   - The application starts with a graphical user interface created using Python Tkinter.
+   - Provides a simple and interactive environment for user input.
+
+2. **Biomarker Input**
+   - User enters a biomarker name (e.g., Troponin, CA-125, HbA1c).
+   - Input is taken through a text entry field.
+
+3. **Biomarker Matching**
+   - The entered biomarker is matched against a predefined Python dictionary.
+   - If the biomarker exists, corresponding disease information is retrieved.
+   - If not found, an error message is displayed.
+
+4. **Disease Information Display**
+   - The system displays:
+     - Disease name
+     - Symptoms
+     - Cause
+     - Risk factors
+     - Treatment
+   - Information is shown in a structured GUI window.
+
+5. **Pathway Information**
+   - Users can open a separate window to view disease-related biological pathways.
+   - Each pathway includes a short description.
+   - A simulated pathway network view is provided.
+
+6. **Drug Information**
+   - Displays commonly used drugs related to the identified disease.
+   - Includes brief descriptions of their mechanism of action.
+
+7. **Research Publications**
+   - Lists relevant scientific publications.
+   - Provides publication title, PubMed ID, and clickable links.
+   - Clicking the link opens the research paper in a web browser.
+
+8. **Output**
+   - A complete biomarker-to-disease identification pipeline with clinical, biological, and therapeutic insights.
